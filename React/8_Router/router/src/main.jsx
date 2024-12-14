@@ -4,12 +4,14 @@ import './index.css'
 import App from './App.jsx'
 import Home from './router/Home.jsx'
 import Contact from './router/contact.jsx'
-
+//error page
 import ErrorPage from './router/ErrorPage.jsx'
-
+//configurando rota
 import{
   createBrowserRouter, RouterProvider, Router 
 } from "react-router-dom"
+
+import Product from './components/Product.jsx'
 
 const router = createBrowserRouter([
   {
@@ -25,7 +27,13 @@ const router = createBrowserRouter([
     {
       path:"contact",
       element: <Contact/>
+    },
+    //rotas dinamicas
+    {
+      path:"products/:id",
+      element: <Product/>
     }
+
   
   ]
   },

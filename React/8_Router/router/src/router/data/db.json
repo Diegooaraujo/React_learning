@@ -1,0 +1,24 @@
+{
+    "products":[
+        {
+            "name":"capa de chuva",
+            "price":"50.50",
+            "id":"5"
+        },
+        {
+            "name":"teclado",
+            "price":"25.25",
+            "id":"6"
+        },
+        {
+            "name":"cadeira",
+            "price":"10.00",
+            "id":"8"
+        },
+        {
+            "name":"Mouse",
+            "price":"5.50",
+            "id":"10"
+        }
+    ]
+}
